@@ -1,0 +1,30 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2017/09/22, 13:09:55
+    Author     : ryokato
+*/
+*{
+    background-color: #222222;
+    color: #eeeeee;
+    text-align: center;
+    font-family:"Lucida Grande", "Lucida Sans Unicode", 
+        "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", 
+        "メイリオ", Meiryo, "ＭＳ Ｐゴシック", Helvetica,
+        Arial, Verdana, sans-serif;
+}
+
+input,button,textarea{
+    border:1px solid #eeeeee;
+    margin: 10px;
+    padding: 10px;
+    font-size:20px;
+}
+h1 {
+    font-size:30px;
+    padding: 0px;
+    margin: 10px;
+}
