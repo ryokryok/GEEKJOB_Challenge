@@ -4,6 +4,7 @@ import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.jsp.*;
 import kagoyume.YumeHelper;
+import kagoyume.UserDataDTO;
 
 public final class top_jsp extends org.apache.jasper.runtime.HttpJspBase
     implements org.apache.jasper.runtime.JspSourceDependent {
@@ -45,21 +46,31 @@ public final class top_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\n");
       out.write("\n");
       out.write("\n");
- YumeHelper yh = YumeHelper.getInstance(); 
-   String nameU = "ryok";
+ YumeHelper yh = YumeHelper.getInstance();
+    UserDataDTO udd = (UserDataDTO) session.getAttribute("udd");
 
       out.write("\n");
       out.write("<!DOCTYPE html>\n");
       out.write("<html>\n");
       out.write("    <head>\n");
       out.write("        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n");
-      out.write("        <title>JSP Page</title>\n");
+      out.write("        <link rel=\"stylesheet\" href=\"css/bootstrap.min.css\">\n");
+      out.write("        <title>Yumekago</title>\n");
       out.write("    </head>\n");
       out.write("    <body>\n");
-      out.write("        <h1>Hello World!</h1>\n");
-      out.write("        ");
-      out.print(yh.loginP(nameU) );
+      out.write("        <div class=\"container-fluid\">\n");
+      out.write("            <div class=\"page-header\">\n");
+      out.write("                ");
+      out.print(yh.header());
       out.write("\n");
+      out.write("                ");
+      out.print(yh.msg(udd));
+      out.write("\n");
+      out.write("            </div>\n");
+      out.write("            ");
+      out.print(yh.search());
+      out.write("\n");
+      out.write("        </div>  \n");
       out.write("    </body>\n");
       out.write("</html>\n");
     } catch (Throwable t) {

@@ -1,11 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
-    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="1">
+        <file>
+            <url>src/java/kagoyume/CartBean.java</url>
+            <bookmark id="1">
+                <name/>
+                <line>0</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/Users/ryokato/NetBeansProjects/Yumekago/web/top.jsp</file>
-            <file>file:/Users/ryokato/NetBeansProjects/Yumekago/web/login.jsp</file>
-            <file>file:/Users/ryokato/NetBeansProjects/Yumekago/src/java/kagoyume/YumeHelper.java</file>
+            <file>file:/Users/ryokato/fromnetbeans/Yumekago/web/add.jsp</file>
+            <file>file:/Users/ryokato/fromnetbeans/Yumekago/web/buycfm.jsp</file>
+            <file>file:/Users/ryokato/fromnetbeans/Yumekago/web/item.jsp</file>
+            <file>file:/Users/ryokato/fromnetbeans/Yumekago/src/java/kagoyume/Item.java</file>
+            <file>file:/Users/ryokato/fromnetbeans/Yumekago/src/java/kagoyume/Search.java</file>
+            <file>file:/Users/ryokato/fromnetbeans/Yumekago/src/java/kagoyume/YumeHelper.java</file>
+            <file>file:/Users/ryokato/fromnetbeans/Yumekago/web/cart.jsp</file>
+            <file>file:/Users/ryokato/fromnetbeans/Yumekago/src/java/kagoyume/Cart.java</file>
+            <file>file:/Users/ryokato/fromnetbeans/Yumekago/src/java/kagoyume/LoginCheck.java</file>
+            <file>file:/Users/ryokato/fromnetbeans/Yumekago/web/search.jsp</file>
+            <file>file:/Users/ryokato/fromnetbeans/Yumekago/web/buycomp.jsp</file>
+            <file>file:/Users/ryokato/fromnetbeans/Yumekago/src/java/kagoyume/Login.java</file>
+            <file>file:/Users/ryokato/fromnetbeans/Yumekago/web/login.jsp</file>
+            <file>file:/Users/ryokato/fromnetbeans/Yumekago/src/java/base/DBmanager.java</file>
+            <file>file:/Users/ryokato/fromnetbeans/Yumekago/web/top.jsp</file>
+            <file>file:/Users/ryokato/fromnetbeans/Yumekago/src/java/kagoyume/BuyComp.java</file>
+            <file>file:/Users/ryokato/fromnetbeans/Yumekago/web/mydelete.jsp</file>
         </group>
     </open-files>
 </project-private>

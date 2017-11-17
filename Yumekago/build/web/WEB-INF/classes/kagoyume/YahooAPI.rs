@@ -1,0 +1,2 @@
+kagoyume.Product
+kagoyume.YahooAPI
